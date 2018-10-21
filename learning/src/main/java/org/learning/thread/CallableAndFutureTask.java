@@ -8,7 +8,6 @@ import java.util.concurrent.TimeoutException;
 import java.util.Random;
 
 class CallableMethod implements Callable<Object>{
-
 	@Override
 	public Object call() throws Exception {
 		// TODO Auto-generated method stub
