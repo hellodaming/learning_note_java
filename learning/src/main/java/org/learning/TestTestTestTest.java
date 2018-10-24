@@ -6,6 +6,19 @@ public class TestTestTestTest {
 	public static void main(String[] args) {
 		Scanner in = new Scanner(System.in);
 		while (in.hasNext()) {
+			int i = in.nextInt(); //获得输入的整数
+			String s = String.valueOf(i); //整数转String类型
+			StringBuffer str = new StringBuffer(s); //String转StringBuffer类型
+			System.out.println(str.reverse().toString()); //利用StringBuffer进行逆序，然后输出
+		}
+	}
+}
+
+/**
+public class TestTestTestTest {
+	public static void main(String[] args) {
+		Scanner in = new Scanner(System.in);
+		while (in.hasNext()) {
 			String str = in.nextLine();
 			//String str  = "abcDceddFdeee";
 			char[] c = str.toCharArray();
@@ -20,7 +33,7 @@ public class TestTestTestTest {
 		}
 	}
 }
-
+**/
 
 /*
 
