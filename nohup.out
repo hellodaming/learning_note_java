@@ -1,0 +1,566 @@
+org.eclipse.m2e.logback.configuration: The org.eclipse.m2e.logback.configuration bundle was activated before the state location was initialized.  Will retry after the state location is initialized.
+
+(Eclipse:15829): GLib-CRITICAL **: 18:11:25.312: g_base64_encode_step: assertion 'in != NULL' failed
+
+(Eclipse:15829): GLib-CRITICAL **: 18:11:25.312: g_base64_encode_step: assertion 'in != NULL' failed
+
+(Eclipse:15829): GLib-CRITICAL **: 18:11:25.312: g_base64_encode_step: assertion 'in != NULL' failed
+
+(Eclipse:15829): GLib-CRITICAL **: 18:11:25.312: g_base64_encode_step: assertion 'in != NULL' failed
+
+(Eclipse:15829): GLib-CRITICAL **: 18:11:25.377: g_base64_encode_step: assertion 'in != NULL' failed
+
+(Eclipse:15829): GLib-CRITICAL **: 18:11:25.377: g_base64_encode_step: assertion 'in != NULL' failed
+
+(Eclipse:15829): GLib-CRITICAL **: 18:11:25.380: g_base64_encode_step: assertion 'in != NULL' failed
+
+(Eclipse:15829): GLib-CRITICAL **: 18:11:25.380: g_base64_encode_step: assertion 'in != NULL' failed
+
+(Eclipse:15829): GLib-CRITICAL **: 18:11:25.381: g_base64_encode_step: assertion 'in != NULL' failed
+
+(Eclipse:15829): GLib-CRITICAL **: 18:11:25.381: g_base64_encode_step: assertion 'in != NULL' failed
+
+(Eclipse:15829): GLib-CRITICAL **: 18:11:25.424: g_base64_encode_step: assertion 'in != NULL' failed
+
+(Eclipse:15829): GLib-CRITICAL **: 18:11:25.424: g_base64_encode_step: assertion 'in != NULL' failed
+
+(Eclipse:15829): GLib-CRITICAL **: 18:11:25.465: g_base64_encode_step: assertion 'in != NULL' failed
+
+(Eclipse:15829): GLib-CRITICAL **: 18:11:25.465: g_base64_encode_step: assertion 'in != NULL' failed
+
+(Eclipse:15829): GLib-CRITICAL **: 18:11:25.471: g_base64_encode_step: assertion 'in != NULL' failed
+
+(Eclipse:15829): GLib-CRITICAL **: 18:11:25.471: g_base64_encode_step: assertion 'in != NULL' failed
+
+(Eclipse:15829): GLib-CRITICAL **: 18:11:25.472: g_base64_encode_step: assertion 'in != NULL' failed
+
+(Eclipse:15829): GLib-CRITICAL **: 18:11:25.472: g_base64_encode_step: assertion 'in != NULL' failed
+
+(Eclipse:15829): GLib-CRITICAL **: 18:11:25.526: g_base64_encode_step: assertion 'in != NULL' failed
+
+(Eclipse:15829): GLib-CRITICAL **: 18:11:25.526: g_base64_encode_step: assertion 'in != NULL' failed
+
+(Eclipse:15829): GLib-CRITICAL **: 18:11:25.528: g_base64_encode_step: assertion 'in != NULL' failed
+
+(Eclipse:15829): GLib-CRITICAL **: 18:11:25.528: g_base64_encode_step: assertion 'in != NULL' failed
+
+(Eclipse:15829): GLib-CRITICAL **: 18:11:25.529: g_base64_encode_step: assertion 'in != NULL' failed
+
+(Eclipse:15829): GLib-CRITICAL **: 18:11:25.529: g_base64_encode_step: assertion 'in != NULL' failed
+
+(Eclipse:15829): GLib-CRITICAL **: 18:11:25.561: g_base64_encode_step: assertion 'in != NULL' failed
+
+(Eclipse:15829): GLib-CRITICAL **: 18:11:25.561: g_base64_encode_step: assertion 'in != NULL' failed
+
+(Eclipse:15829): GLib-CRITICAL **: 18:11:25.841: g_base64_encode_step: assertion 'in != NULL' failed
+
+(Eclipse:15829): GLib-CRITICAL **: 18:11:25.841: g_base64_encode_step: assertion 'in != NULL' failed
+
+(Eclipse:15829): GLib-CRITICAL **: 18:11:25.842: g_base64_encode_step: assertion 'in != NULL' failed
+
+(Eclipse:15829): GLib-CRITICAL **: 18:11:25.842: g_base64_encode_step: assertion 'in != NULL' failed
+
+(Eclipse:15829): GLib-CRITICAL **: 18:11:25.885: g_base64_encode_step: assertion 'in != NULL' failed
+
+(Eclipse:15829): GLib-CRITICAL **: 18:11:25.885: g_base64_encode_step: assertion 'in != NULL' failed
+
+(Eclipse:15829): GLib-CRITICAL **: 18:11:25.887: g_base64_encode_step: assertion 'in != NULL' failed
+
+(Eclipse:15829): GLib-CRITICAL **: 18:11:25.887: g_base64_encode_step: assertion 'in != NULL' failed
+
+(Eclipse:15829): GLib-CRITICAL **: 18:11:25.887: g_base64_encode_step: assertion 'in != NULL' failed
+
+(Eclipse:15829): GLib-CRITICAL **: 18:11:25.887: g_base64_encode_step: assertion 'in != NULL' failed
+
+(Eclipse:15829): GLib-CRITICAL **: 18:11:25.910: g_base64_encode_step: assertion 'in != NULL' failed
+
+(Eclipse:15829): GLib-CRITICAL **: 18:11:25.910: g_base64_encode_step: assertion 'in != NULL' failed
+
+(Eclipse:15829): GLib-CRITICAL **: 18:11:25.931: g_base64_encode_step: assertion 'in != NULL' failed
+
+(Eclipse:15829): GLib-CRITICAL **: 18:11:25.931: g_base64_encode_step: assertion 'in != NULL' failed
+
+(Eclipse:15829): GLib-CRITICAL **: 18:11:25.933: g_base64_encode_step: assertion 'in != NULL' failed
+
+(Eclipse:15829): GLib-CRITICAL **: 18:11:25.933: g_base64_encode_step: assertion 'in != NULL' failed
+
+(Eclipse:15829): GLib-CRITICAL **: 18:11:25.934: g_base64_encode_step: assertion 'in != NULL' failed
+
+(Eclipse:15829): GLib-CRITICAL **: 18:11:25.934: g_base64_encode_step: assertion 'in != NULL' failed
+
+(Eclipse:15829): GLib-CRITICAL **: 18:11:25.962: g_base64_encode_step: assertion 'in != NULL' failed
+
+(Eclipse:15829): GLib-CRITICAL **: 18:11:25.962: g_base64_encode_step: assertion 'in != NULL' failed
+
+(Eclipse:15829): GLib-CRITICAL **: 18:11:25.963: g_base64_encode_step: assertion 'in != NULL' failed
+
+(Eclipse:15829): GLib-CRITICAL **: 18:11:25.963: g_base64_encode_step: assertion 'in != NULL' failed
+
+(Eclipse:15829): GLib-CRITICAL **: 18:11:25.964: g_base64_encode_step: assertion 'in != NULL' failed
+
+(Eclipse:15829): GLib-CRITICAL **: 18:11:25.964: g_base64_encode_step: assertion 'in != NULL' failed
+
+(Eclipse:15829): GLib-CRITICAL **: 18:11:25.981: g_base64_encode_step: assertion 'in != NULL' failed
+
+(Eclipse:15829): GLib-CRITICAL **: 18:11:25.981: g_base64_encode_step: assertion 'in != NULL' failed
+
+(Eclipse:15829): GLib-CRITICAL **: 18:11:26.010: g_base64_encode_step: assertion 'in != NULL' failed
+
+(Eclipse:15829): GLib-CRITICAL **: 18:11:26.010: g_base64_encode_step: assertion 'in != NULL' failed
+
+(Eclipse:15829): GLib-CRITICAL **: 18:11:26.010: g_base64_encode_step: assertion 'in != NULL' failed
+
+(Eclipse:15829): GLib-CRITICAL **: 18:11:26.010: g_base64_encode_step: assertion 'in != NULL' failed
+
+(Eclipse:15829): GLib-CRITICAL **: 18:11:26.044: g_base64_encode_step: assertion 'in != NULL' failed
+
+(Eclipse:15829): GLib-CRITICAL **: 18:11:26.044: g_base64_encode_step: assertion 'in != NULL' failed
+
+(Eclipse:15829): GLib-CRITICAL **: 18:11:26.045: g_base64_encode_step: assertion 'in != NULL' failed
+
+(Eclipse:15829): GLib-CRITICAL **: 18:11:26.045: g_base64_encode_step: assertion 'in != NULL' failed
+
+(Eclipse:15829): GLib-CRITICAL **: 18:11:26.046: g_base64_encode_step: assertion 'in != NULL' failed
+
+(Eclipse:15829): GLib-CRITICAL **: 18:11:26.046: g_base64_encode_step: assertion 'in != NULL' failed
+
+(Eclipse:15829): GLib-CRITICAL **: 18:11:26.066: g_base64_encode_step: assertion 'in != NULL' failed
+
+(Eclipse:15829): GLib-CRITICAL **: 18:11:26.067: g_base64_encode_step: assertion 'in != NULL' failed
+
+(Eclipse:15829): GLib-CRITICAL **: 18:11:26.084: g_base64_encode_step: assertion 'in != NULL' failed
+
+(Eclipse:15829): GLib-CRITICAL **: 18:11:26.084: g_base64_encode_step: assertion 'in != NULL' failed
+
+(Eclipse:15829): GLib-CRITICAL **: 18:11:26.086: g_base64_encode_step: assertion 'in != NULL' failed
+
+(Eclipse:15829): GLib-CRITICAL **: 18:11:26.086: g_base64_encode_step: assertion 'in != NULL' failed
+
+(Eclipse:15829): GLib-CRITICAL **: 18:11:26.087: g_base64_encode_step: assertion 'in != NULL' failed
+
+(Eclipse:15829): GLib-CRITICAL **: 18:11:26.087: g_base64_encode_step: assertion 'in != NULL' failed
+
+(Eclipse:15829): GLib-CRITICAL **: 18:11:26.109: g_base64_encode_step: assertion 'in != NULL' failed
+
+(Eclipse:15829): GLib-CRITICAL **: 18:11:26.109: g_base64_encode_step: assertion 'in != NULL' failed
+
+(Eclipse:15829): GLib-CRITICAL **: 18:11:26.109: g_base64_encode_step: assertion 'in != NULL' failed
+
+(Eclipse:15829): GLib-CRITICAL **: 18:11:26.109: g_base64_encode_step: assertion 'in != NULL' failed
+
+(Eclipse:15829): GLib-CRITICAL **: 18:11:26.110: g_base64_encode_step: assertion 'in != NULL' failed
+
+(Eclipse:15829): GLib-CRITICAL **: 18:11:26.110: g_base64_encode_step: assertion 'in != NULL' failed
+
+(Eclipse:15829): GLib-CRITICAL **: 18:11:26.124: g_base64_encode_step: assertion 'in != NULL' failed
+
+(Eclipse:15829): GLib-CRITICAL **: 18:11:26.124: g_base64_encode_step: assertion 'in != NULL' failed
+
+(Eclipse:15829): GLib-CRITICAL **: 18:11:26.148: g_base64_encode_step: assertion 'in != NULL' failed
+
+(Eclipse:15829): GLib-CRITICAL **: 18:11:26.148: g_base64_encode_step: assertion 'in != NULL' failed
+
+(Eclipse:15829): GLib-CRITICAL **: 18:11:26.148: g_base64_encode_step: assertion 'in != NULL' failed
+
+(Eclipse:15829): GLib-CRITICAL **: 18:11:26.148: g_base64_encode_step: assertion 'in != NULL' failed
+
+(Eclipse:15829): GLib-CRITICAL **: 18:11:26.175: g_base64_encode_step: assertion 'in != NULL' failed
+
+(Eclipse:15829): GLib-CRITICAL **: 18:11:26.175: g_base64_encode_step: assertion 'in != NULL' failed
+
+(Eclipse:15829): GLib-CRITICAL **: 18:11:26.176: g_base64_encode_step: assertion 'in != NULL' failed
+
+(Eclipse:15829): GLib-CRITICAL **: 18:11:26.176: g_base64_encode_step: assertion 'in != NULL' failed
+
+(Eclipse:15829): GLib-CRITICAL **: 18:11:26.177: g_base64_encode_step: assertion 'in != NULL' failed
+
+(Eclipse:15829): GLib-CRITICAL **: 18:11:26.177: g_base64_encode_step: assertion 'in != NULL' failed
+
+(Eclipse:15829): GLib-CRITICAL **: 18:11:26.195: g_base64_encode_step: assertion 'in != NULL' failed
+
+(Eclipse:15829): GLib-CRITICAL **: 18:11:26.195: g_base64_encode_step: assertion 'in != NULL' failed
+
+(Eclipse:15829): GLib-CRITICAL **: 18:11:26.211: g_base64_encode_step: assertion 'in != NULL' failed
+
+(Eclipse:15829): GLib-CRITICAL **: 18:11:26.211: g_base64_encode_step: assertion 'in != NULL' failed
+
+(Eclipse:15829): GLib-CRITICAL **: 18:11:26.213: g_base64_encode_step: assertion 'in != NULL' failed
+
+(Eclipse:15829): GLib-CRITICAL **: 18:11:26.213: g_base64_encode_step: assertion 'in != NULL' failed
+
+(Eclipse:15829): GLib-CRITICAL **: 18:11:26.213: g_base64_encode_step: assertion 'in != NULL' failed
+
+(Eclipse:15829): GLib-CRITICAL **: 18:11:26.213: g_base64_encode_step: assertion 'in != NULL' failed
+
+(Eclipse:15829): GLib-CRITICAL **: 18:11:26.235: g_base64_encode_step: assertion 'in != NULL' failed
+
+(Eclipse:15829): GLib-CRITICAL **: 18:11:26.235: g_base64_encode_step: assertion 'in != NULL' failed
+
+(Eclipse:15829): GLib-CRITICAL **: 18:11:26.236: g_base64_encode_step: assertion 'in != NULL' failed
+
+(Eclipse:15829): GLib-CRITICAL **: 18:11:26.236: g_base64_encode_step: assertion 'in != NULL' failed
+
+(Eclipse:15829): GLib-CRITICAL **: 18:11:26.237: g_base64_encode_step: assertion 'in != NULL' failed
+
+(Eclipse:15829): GLib-CRITICAL **: 18:11:26.237: g_base64_encode_step: assertion 'in != NULL' failed
+
+(Eclipse:15829): GLib-CRITICAL **: 18:11:26.250: g_base64_encode_step: assertion 'in != NULL' failed
+
+(Eclipse:15829): GLib-CRITICAL **: 18:11:26.250: g_base64_encode_step: assertion 'in != NULL' failed
+
+(Eclipse:15829): GLib-CRITICAL **: 18:11:26.273: g_base64_encode_step: assertion 'in != NULL' failed
+
+(Eclipse:15829): GLib-CRITICAL **: 18:11:26.273: g_base64_encode_step: assertion 'in != NULL' failed
+
+(Eclipse:15829): GLib-CRITICAL **: 18:11:26.274: g_base64_encode_step: assertion 'in != NULL' failed
+
+(Eclipse:15829): GLib-CRITICAL **: 18:11:26.274: g_base64_encode_step: assertion 'in != NULL' failed
+
+(Eclipse:15829): GLib-CRITICAL **: 18:11:26.300: g_base64_encode_step: assertion 'in != NULL' failed
+
+(Eclipse:15829): GLib-CRITICAL **: 18:11:26.300: g_base64_encode_step: assertion 'in != NULL' failed
+
+(Eclipse:15829): GLib-CRITICAL **: 18:11:26.301: g_base64_encode_step: assertion 'in != NULL' failed
+
+(Eclipse:15829): GLib-CRITICAL **: 18:11:26.301: g_base64_encode_step: assertion 'in != NULL' failed
+
+(Eclipse:15829): GLib-CRITICAL **: 18:11:26.302: g_base64_encode_step: assertion 'in != NULL' failed
+
+(Eclipse:15829): GLib-CRITICAL **: 18:11:26.302: g_base64_encode_step: assertion 'in != NULL' failed
+
+(Eclipse:15829): GLib-CRITICAL **: 18:11:26.320: g_base64_encode_step: assertion 'in != NULL' failed
+
+(Eclipse:15829): GLib-CRITICAL **: 18:11:26.320: g_base64_encode_step: assertion 'in != NULL' failed
+
+(Eclipse:15829): GLib-CRITICAL **: 18:11:26.336: g_base64_encode_step: assertion 'in != NULL' failed
+
+(Eclipse:15829): GLib-CRITICAL **: 18:11:26.336: g_base64_encode_step: assertion 'in != NULL' failed
+
+(Eclipse:15829): GLib-CRITICAL **: 18:11:26.338: g_base64_encode_step: assertion 'in != NULL' failed
+
+(Eclipse:15829): GLib-CRITICAL **: 18:11:26.338: g_base64_encode_step: assertion 'in != NULL' failed
+
+(Eclipse:15829): GLib-CRITICAL **: 18:11:26.338: g_base64_encode_step: assertion 'in != NULL' failed
+
+(Eclipse:15829): GLib-CRITICAL **: 18:11:26.338: g_base64_encode_step: assertion 'in != NULL' failed
+
+(Eclipse:15829): GLib-CRITICAL **: 18:11:26.360: g_base64_encode_step: assertion 'in != NULL' failed
+
+(Eclipse:15829): GLib-CRITICAL **: 18:11:26.360: g_base64_encode_step: assertion 'in != NULL' failed
+
+(Eclipse:15829): GLib-CRITICAL **: 18:11:26.361: g_base64_encode_step: assertion 'in != NULL' failed
+
+(Eclipse:15829): GLib-CRITICAL **: 18:11:26.361: g_base64_encode_step: assertion 'in != NULL' failed
+
+(Eclipse:15829): GLib-CRITICAL **: 18:11:26.362: g_base64_encode_step: assertion 'in != NULL' failed
+
+(Eclipse:15829): GLib-CRITICAL **: 18:11:26.362: g_base64_encode_step: assertion 'in != NULL' failed
+
+(Eclipse:15829): GLib-CRITICAL **: 18:11:26.375: g_base64_encode_step: assertion 'in != NULL' failed
+
+(Eclipse:15829): GLib-CRITICAL **: 18:11:26.375: g_base64_encode_step: assertion 'in != NULL' failed
+
+(Eclipse:15829): GLib-CRITICAL **: 18:11:26.490: g_base64_encode_step: assertion 'in != NULL' failed
+
+(Eclipse:15829): GLib-CRITICAL **: 18:11:26.490: g_base64_encode_step: assertion 'in != NULL' failed
+
+(Eclipse:15829): GLib-CRITICAL **: 18:11:26.490: g_base64_encode_step: assertion 'in != NULL' failed
+
+(Eclipse:15829): GLib-CRITICAL **: 18:11:26.490: g_base64_encode_step: assertion 'in != NULL' failed
+
+(Eclipse:15829): GLib-CRITICAL **: 18:11:26.518: g_base64_encode_step: assertion 'in != NULL' failed
+
+(Eclipse:15829): GLib-CRITICAL **: 18:11:26.518: g_base64_encode_step: assertion 'in != NULL' failed
+
+(Eclipse:15829): GLib-CRITICAL **: 18:11:26.519: g_base64_encode_step: assertion 'in != NULL' failed
+
+(Eclipse:15829): GLib-CRITICAL **: 18:11:26.519: g_base64_encode_step: assertion 'in != NULL' failed
+
+(Eclipse:15829): GLib-CRITICAL **: 18:11:26.519: g_base64_encode_step: assertion 'in != NULL' failed
+
+(Eclipse:15829): GLib-CRITICAL **: 18:11:26.519: g_base64_encode_step: assertion 'in != NULL' failed
+
+(Eclipse:15829): GLib-CRITICAL **: 18:11:26.538: g_base64_encode_step: assertion 'in != NULL' failed
+
+(Eclipse:15829): GLib-CRITICAL **: 18:11:26.538: g_base64_encode_step: assertion 'in != NULL' failed
+
+(Eclipse:15829): GLib-CRITICAL **: 18:11:26.554: g_base64_encode_step: assertion 'in != NULL' failed
+
+(Eclipse:15829): GLib-CRITICAL **: 18:11:26.554: g_base64_encode_step: assertion 'in != NULL' failed
+
+(Eclipse:15829): GLib-CRITICAL **: 18:11:26.556: g_base64_encode_step: assertion 'in != NULL' failed
+
+(Eclipse:15829): GLib-CRITICAL **: 18:11:26.556: g_base64_encode_step: assertion 'in != NULL' failed
+
+(Eclipse:15829): GLib-CRITICAL **: 18:11:26.557: g_base64_encode_step: assertion 'in != NULL' failed
+
+(Eclipse:15829): GLib-CRITICAL **: 18:11:26.557: g_base64_encode_step: assertion 'in != NULL' failed
+
+(Eclipse:15829): GLib-CRITICAL **: 18:11:26.585: g_base64_encode_step: assertion 'in != NULL' failed
+
+(Eclipse:15829): GLib-CRITICAL **: 18:11:26.585: g_base64_encode_step: assertion 'in != NULL' failed
+
+(Eclipse:15829): GLib-CRITICAL **: 18:11:26.586: g_base64_encode_step: assertion 'in != NULL' failed
+
+(Eclipse:15829): GLib-CRITICAL **: 18:11:26.586: g_base64_encode_step: assertion 'in != NULL' failed
+
+(Eclipse:15829): GLib-CRITICAL **: 18:11:26.587: g_base64_encode_step: assertion 'in != NULL' failed
+
+(Eclipse:15829): GLib-CRITICAL **: 18:11:26.587: g_base64_encode_step: assertion 'in != NULL' failed
+
+(Eclipse:15829): GLib-CRITICAL **: 18:11:26.604: g_base64_encode_step: assertion 'in != NULL' failed
+
+(Eclipse:15829): GLib-CRITICAL **: 18:11:26.604: g_base64_encode_step: assertion 'in != NULL' failed
+
+(Eclipse:15829): GLib-CRITICAL **: 18:11:26.628: g_base64_encode_step: assertion 'in != NULL' failed
+
+(Eclipse:15829): GLib-CRITICAL **: 18:11:26.628: g_base64_encode_step: assertion 'in != NULL' failed
+
+(Eclipse:15829): GLib-CRITICAL **: 18:11:26.628: g_base64_encode_step: assertion 'in != NULL' failed
+
+(Eclipse:15829): GLib-CRITICAL **: 18:11:26.628: g_base64_encode_step: assertion 'in != NULL' failed
+
+(Eclipse:15829): GLib-CRITICAL **: 18:11:26.655: g_base64_encode_step: assertion 'in != NULL' failed
+
+(Eclipse:15829): GLib-CRITICAL **: 18:11:26.655: g_base64_encode_step: assertion 'in != NULL' failed
+
+(Eclipse:15829): GLib-CRITICAL **: 18:11:26.656: g_base64_encode_step: assertion 'in != NULL' failed
+
+(Eclipse:15829): GLib-CRITICAL **: 18:11:26.656: g_base64_encode_step: assertion 'in != NULL' failed
+
+(Eclipse:15829): GLib-CRITICAL **: 18:11:26.656: g_base64_encode_step: assertion 'in != NULL' failed
+
+(Eclipse:15829): GLib-CRITICAL **: 18:11:26.656: g_base64_encode_step: assertion 'in != NULL' failed
+
+(Eclipse:15829): GLib-CRITICAL **: 18:11:26.675: g_base64_encode_step: assertion 'in != NULL' failed
+
+(Eclipse:15829): GLib-CRITICAL **: 18:11:26.675: g_base64_encode_step: assertion 'in != NULL' failed
+
+(Eclipse:15829): GLib-CRITICAL **: 18:11:26.691: g_base64_encode_step: assertion 'in != NULL' failed
+
+(Eclipse:15829): GLib-CRITICAL **: 18:11:26.691: g_base64_encode_step: assertion 'in != NULL' failed
+
+(Eclipse:15829): GLib-CRITICAL **: 18:11:26.693: g_base64_encode_step: assertion 'in != NULL' failed
+
+(Eclipse:15829): GLib-CRITICAL **: 18:11:26.693: g_base64_encode_step: assertion 'in != NULL' failed
+
+(Eclipse:15829): GLib-CRITICAL **: 18:11:26.693: g_base64_encode_step: assertion 'in != NULL' failed
+
+(Eclipse:15829): GLib-CRITICAL **: 18:11:26.693: g_base64_encode_step: assertion 'in != NULL' failed
+
+(Eclipse:15829): GLib-CRITICAL **: 18:11:26.715: g_base64_encode_step: assertion 'in != NULL' failed
+
+(Eclipse:15829): GLib-CRITICAL **: 18:11:26.715: g_base64_encode_step: assertion 'in != NULL' failed
+
+(Eclipse:15829): GLib-CRITICAL **: 18:11:26.716: g_base64_encode_step: assertion 'in != NULL' failed
+
+(Eclipse:15829): GLib-CRITICAL **: 18:11:26.716: g_base64_encode_step: assertion 'in != NULL' failed
+
+(Eclipse:15829): GLib-CRITICAL **: 18:11:26.717: g_base64_encode_step: assertion 'in != NULL' failed
+
+(Eclipse:15829): GLib-CRITICAL **: 18:11:26.717: g_base64_encode_step: assertion 'in != NULL' failed
+
+(Eclipse:15829): GLib-CRITICAL **: 18:11:26.730: g_base64_encode_step: assertion 'in != NULL' failed
+
+(Eclipse:15829): GLib-CRITICAL **: 18:11:26.730: g_base64_encode_step: assertion 'in != NULL' failed
+
+(Eclipse:15829): GLib-CRITICAL **: 18:11:26.753: g_base64_encode_step: assertion 'in != NULL' failed
+
+(Eclipse:15829): GLib-CRITICAL **: 18:11:26.753: g_base64_encode_step: assertion 'in != NULL' failed
+
+(Eclipse:15829): GLib-CRITICAL **: 18:11:26.753: g_base64_encode_step: assertion 'in != NULL' failed
+
+(Eclipse:15829): GLib-CRITICAL **: 18:11:26.753: g_base64_encode_step: assertion 'in != NULL' failed
+
+(Eclipse:15829): GLib-CRITICAL **: 18:11:26.780: g_base64_encode_step: assertion 'in != NULL' failed
+
+(Eclipse:15829): GLib-CRITICAL **: 18:11:26.780: g_base64_encode_step: assertion 'in != NULL' failed
+
+(Eclipse:15829): GLib-CRITICAL **: 18:11:26.781: g_base64_encode_step: assertion 'in != NULL' failed
+
+(Eclipse:15829): GLib-CRITICAL **: 18:11:26.781: g_base64_encode_step: assertion 'in != NULL' failed
+
+(Eclipse:15829): GLib-CRITICAL **: 18:11:26.781: g_base64_encode_step: assertion 'in != NULL' failed
+
+(Eclipse:15829): GLib-CRITICAL **: 18:11:26.781: g_base64_encode_step: assertion 'in != NULL' failed
+
+(Eclipse:15829): GLib-CRITICAL **: 18:11:26.799: g_base64_encode_step: assertion 'in != NULL' failed
+
+(Eclipse:15829): GLib-CRITICAL **: 18:11:26.799: g_base64_encode_step: assertion 'in != NULL' failed
+
+(Eclipse:15829): GLib-CRITICAL **: 18:11:26.815: g_base64_encode_step: assertion 'in != NULL' failed
+
+(Eclipse:15829): GLib-CRITICAL **: 18:11:26.815: g_base64_encode_step: assertion 'in != NULL' failed
+
+(Eclipse:15829): GLib-CRITICAL **: 18:11:26.817: g_base64_encode_step: assertion 'in != NULL' failed
+
+(Eclipse:15829): GLib-CRITICAL **: 18:11:26.817: g_base64_encode_step: assertion 'in != NULL' failed
+
+(Eclipse:15829): GLib-CRITICAL **: 18:11:26.818: g_base64_encode_step: assertion 'in != NULL' failed
+
+(Eclipse:15829): GLib-CRITICAL **: 18:11:26.818: g_base64_encode_step: assertion 'in != NULL' failed
+
+(Eclipse:15829): GLib-CRITICAL **: 18:11:26.840: g_base64_encode_step: assertion 'in != NULL' failed
+
+(Eclipse:15829): GLib-CRITICAL **: 18:11:26.840: g_base64_encode_step: assertion 'in != NULL' failed
+
+(Eclipse:15829): GLib-CRITICAL **: 18:11:26.841: g_base64_encode_step: assertion 'in != NULL' failed
+
+(Eclipse:15829): GLib-CRITICAL **: 18:11:26.841: g_base64_encode_step: assertion 'in != NULL' failed
+
+(Eclipse:15829): GLib-CRITICAL **: 18:11:26.841: g_base64_encode_step: assertion 'in != NULL' failed
+
+(Eclipse:15829): GLib-CRITICAL **: 18:11:26.841: g_base64_encode_step: assertion 'in != NULL' failed
+
+(Eclipse:15829): GLib-CRITICAL **: 18:11:26.855: g_base64_encode_step: assertion 'in != NULL' failed
+
+(Eclipse:15829): GLib-CRITICAL **: 18:11:26.855: g_base64_encode_step: assertion 'in != NULL' failed
+
+(Eclipse:15829): GLib-CRITICAL **: 18:11:26.878: g_base64_encode_step: assertion 'in != NULL' failed
+
+(Eclipse:15829): GLib-CRITICAL **: 18:11:26.878: g_base64_encode_step: assertion 'in != NULL' failed
+
+(Eclipse:15829): GLib-CRITICAL **: 18:11:26.878: g_base64_encode_step: assertion 'in != NULL' failed
+
+(Eclipse:15829): GLib-CRITICAL **: 18:11:26.878: g_base64_encode_step: assertion 'in != NULL' failed
+
+(Eclipse:15829): GLib-CRITICAL **: 18:11:26.905: g_base64_encode_step: assertion 'in != NULL' failed
+
+(Eclipse:15829): GLib-CRITICAL **: 18:11:26.905: g_base64_encode_step: assertion 'in != NULL' failed
+
+(Eclipse:15829): GLib-CRITICAL **: 18:11:26.906: g_base64_encode_step: assertion 'in != NULL' failed
+
+(Eclipse:15829): GLib-CRITICAL **: 18:11:26.906: g_base64_encode_step: assertion 'in != NULL' failed
+
+(Eclipse:15829): GLib-CRITICAL **: 18:11:26.906: g_base64_encode_step: assertion 'in != NULL' failed
+
+(Eclipse:15829): GLib-CRITICAL **: 18:11:26.906: g_base64_encode_step: assertion 'in != NULL' failed
+
+(Eclipse:15829): GLib-CRITICAL **: 18:11:26.925: g_base64_encode_step: assertion 'in != NULL' failed
+
+(Eclipse:15829): GLib-CRITICAL **: 18:11:26.925: g_base64_encode_step: assertion 'in != NULL' failed
+
+(Eclipse:15829): GLib-CRITICAL **: 18:11:26.941: g_base64_encode_step: assertion 'in != NULL' failed
+
+(Eclipse:15829): GLib-CRITICAL **: 18:11:26.941: g_base64_encode_step: assertion 'in != NULL' failed
+
+(Eclipse:15829): GLib-CRITICAL **: 18:11:26.943: g_base64_encode_step: assertion 'in != NULL' failed
+
+(Eclipse:15829): GLib-CRITICAL **: 18:11:26.943: g_base64_encode_step: assertion 'in != NULL' failed
+
+(Eclipse:15829): GLib-CRITICAL **: 18:11:26.943: g_base64_encode_step: assertion 'in != NULL' failed
+
+(Eclipse:15829): GLib-CRITICAL **: 18:11:26.943: g_base64_encode_step: assertion 'in != NULL' failed
+
+(Eclipse:15829): GLib-CRITICAL **: 18:11:26.966: g_base64_encode_step: assertion 'in != NULL' failed
+
+(Eclipse:15829): GLib-CRITICAL **: 18:11:26.966: g_base64_encode_step: assertion 'in != NULL' failed
+
+(Eclipse:15829): GLib-CRITICAL **: 18:11:26.967: g_base64_encode_step: assertion 'in != NULL' failed
+
+(Eclipse:15829): GLib-CRITICAL **: 18:11:26.967: g_base64_encode_step: assertion 'in != NULL' failed
+
+(Eclipse:15829): GLib-CRITICAL **: 18:11:26.967: g_base64_encode_step: assertion 'in != NULL' failed
+
+(Eclipse:15829): GLib-CRITICAL **: 18:11:26.967: g_base64_encode_step: assertion 'in != NULL' failed
+
+(Eclipse:15829): GLib-CRITICAL **: 18:11:26.981: g_base64_encode_step: assertion 'in != NULL' failed
+
+(Eclipse:15829): GLib-CRITICAL **: 18:11:26.981: g_base64_encode_step: assertion 'in != NULL' failed
+
+(Eclipse:15829): GLib-CRITICAL **: 18:11:27.006: g_base64_encode_step: assertion 'in != NULL' failed
+
+(Eclipse:15829): GLib-CRITICAL **: 18:11:27.006: g_base64_encode_step: assertion 'in != NULL' failed
+
+(Eclipse:15829): GLib-CRITICAL **: 18:11:27.007: g_base64_encode_step: assertion 'in != NULL' failed
+
+(Eclipse:15829): GLib-CRITICAL **: 18:11:27.007: g_base64_encode_step: assertion 'in != NULL' failed
+
+(Eclipse:15829): GLib-CRITICAL **: 18:11:27.035: g_base64_encode_step: assertion 'in != NULL' failed
+
+(Eclipse:15829): GLib-CRITICAL **: 18:11:27.035: g_base64_encode_step: assertion 'in != NULL' failed
+
+(Eclipse:15829): GLib-CRITICAL **: 18:11:27.036: g_base64_encode_step: assertion 'in != NULL' failed
+
+(Eclipse:15829): GLib-CRITICAL **: 18:11:27.036: g_base64_encode_step: assertion 'in != NULL' failed
+
+(Eclipse:15829): GLib-CRITICAL **: 18:11:27.037: g_base64_encode_step: assertion 'in != NULL' failed
+
+(Eclipse:15829): GLib-CRITICAL **: 18:11:27.037: g_base64_encode_step: assertion 'in != NULL' failed
+
+(Eclipse:15829): GLib-CRITICAL **: 18:11:27.055: g_base64_encode_step: assertion 'in != NULL' failed
+
+(Eclipse:15829): GLib-CRITICAL **: 18:11:27.055: g_base64_encode_step: assertion 'in != NULL' failed
+
+(Eclipse:15829): GLib-CRITICAL **: 18:11:27.071: g_base64_encode_step: assertion 'in != NULL' failed
+
+(Eclipse:15829): GLib-CRITICAL **: 18:11:27.071: g_base64_encode_step: assertion 'in != NULL' failed
+
+(Eclipse:15829): GLib-CRITICAL **: 18:11:27.073: g_base64_encode_step: assertion 'in != NULL' failed
+
+(Eclipse:15829): GLib-CRITICAL **: 18:11:27.073: g_base64_encode_step: assertion 'in != NULL' failed
+
+(Eclipse:15829): GLib-CRITICAL **: 18:11:27.074: g_base64_encode_step: assertion 'in != NULL' failed
+
+(Eclipse:15829): GLib-CRITICAL **: 18:11:27.074: g_base64_encode_step: assertion 'in != NULL' failed
+
+(Eclipse:15829): GLib-CRITICAL **: 18:11:27.095: g_base64_encode_step: assertion 'in != NULL' failed
+
+(Eclipse:15829): GLib-CRITICAL **: 18:11:27.096: g_base64_encode_step: assertion 'in != NULL' failed
+
+(Eclipse:15829): GLib-CRITICAL **: 18:11:27.096: g_base64_encode_step: assertion 'in != NULL' failed
+
+(Eclipse:15829): GLib-CRITICAL **: 18:11:27.096: g_base64_encode_step: assertion 'in != NULL' failed
+
+(Eclipse:15829): GLib-CRITICAL **: 18:11:27.097: g_base64_encode_step: assertion 'in != NULL' failed
+
+(Eclipse:15829): GLib-CRITICAL **: 18:11:27.097: g_base64_encode_step: assertion 'in != NULL' failed
+
+(Eclipse:15829): GLib-CRITICAL **: 18:11:27.110: g_base64_encode_step: assertion 'in != NULL' failed
+
+(Eclipse:15829): GLib-CRITICAL **: 18:11:27.110: g_base64_encode_step: assertion 'in != NULL' failed
+org.eclipse.m2e.logback.configuration: Logback config file: /home/will/Git/learning_note_java/.metadata/.plugins/org.eclipse.m2e.logback.configuration/logback.1.7.0.20160603-1933.xml
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [bundleresource://952.fwk283492252:1/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [bundleresource://952.fwk283492252:2/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [ch.qos.logback.classic.util.ContextSelectorStaticBinder]
+org.eclipse.m2e.logback.configuration: Initializing logback
+
+(Eclipse:15829): Gtk-WARNING **: 18:11:32.665: Negative content height -3 (allocation 1, extents 2x2) while allocating gadget (node toolbar, owner GtkToolbar)
+
+(Eclipse:15829): Gtk-WARNING **: 18:11:32.665: Negative content height -3 (allocation 1, extents 2x2) while allocating gadget (node toolbar, owner GtkToolbar)
+
+(Eclipse:15829): Gtk-WARNING **: 18:11:33.838: Negative content height -3 (allocation 1, extents 2x2) while allocating gadget (node toolbar, owner GtkToolbar)
+
+(Eclipse:15829): Gtk-WARNING **: 18:11:33.838: Negative content height -3 (allocation 1, extents 2x2) while allocating gadget (node toolbar, owner GtkToolbar)
+
+(Eclipse:15829): Gtk-WARNING **: 18:11:37.865: Negative content height -3 (allocation 1, extents 2x2) while allocating gadget (node toolbar, owner GtkToolbar)
+
+(Eclipse:15829): Gtk-WARNING **: 18:11:37.865: Negative content height -3 (allocation 1, extents 2x2) while allocating gadget (node toolbar, owner GtkToolbar)
+
+(Eclipse:15829): Gtk-WARNING **: 18:11:37.925: Negative content width -5 (allocation 1, extents 3x3) while allocating gadget (node progressbar, owner GtkProgressBar)
+
+(Eclipse:15829): Gtk-WARNING **: 18:11:37.925: Negative content width -2 (allocation 0, extents 1x1) while allocating gadget (node trough, owner GtkProgressBar)
+
+(Eclipse:15829): Gtk-WARNING **: 18:11:37.926: Negative content width -5 (allocation 1, extents 3x3) while allocating gadget (node progressbar, owner GtkProgressBar)
+
+(Eclipse:15829): Gtk-WARNING **: 18:11:37.926: Negative content width -2 (allocation 0, extents 1x1) while allocating gadget (node trough, owner GtkProgressBar)
+
+(Eclipse:15829): Gtk-WARNING **: 20:45:19.072: Negative content width -5 (allocation 1, extents 3x3) while allocating gadget (node progressbar, owner GtkProgressBar)
+
+(Eclipse:15829): Gtk-WARNING **: 20:45:19.072: Negative content width -2 (allocation 0, extents 1x1) while allocating gadget (node trough, owner GtkProgressBar)
+
+(Eclipse:15829): Gtk-WARNING **: 20:45:19.072: Negative content width -5 (allocation 1, extents 3x3) while allocating gadget (node progressbar, owner GtkProgressBar)
+
+(Eclipse:15829): Gtk-WARNING **: 20:45:19.072: Negative content width -2 (allocation 0, extents 1x1) while allocating gadget (node trough, owner GtkProgressBar)
+Error sending IPC message: 断开的管道
+Error sending IPC message: 断开的管道
+
+(Eclipse:15829): Gtk-WARNING **: 20:52:17.307: Negative content height -3 (allocation 1, extents 2x2) while allocating gadget (node toolbar, owner GtkToolbar)
+
+(Eclipse:15829): Gtk-WARNING **: 20:52:17.307: Negative content height -3 (allocation 1, extents 2x2) while allocating gadget (node toolbar, owner GtkToolbar)
+
+(Eclipse:15829): Gtk-WARNING **: 20:55:57.251: Negative content height -3 (allocation 1, extents 2x2) while allocating gadget (node toolbar, owner GtkToolbar)
+
+(Eclipse:15829): Gtk-WARNING **: 20:55:57.251: Negative content height -3 (allocation 1, extents 2x2) while allocating gadget (node toolbar, owner GtkToolbar)

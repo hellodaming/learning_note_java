@@ -2,28 +2,29 @@ package org.learning.thread.sync;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.concurrent.locks.Lock;
-import java.util.concurrent.locks.ReentrantLock;
+import java.util.concurrent.BlockingQueue;
+import java.util.concurrent.LinkedBlockingQueue;
 
-// ReentrantLock类是可重入、互斥、实现了Lock接口的锁， 
+// 利用BlockingQueue实现同步；其实BlockingQueue更常用于生产者和消费者模式
 // 参考于https://blog.csdn.net/ghsau/article/details/7421217
 
-class AddNumReentrantLock {
-	int i = 0;
-	private Lock lock = new ReentrantLock();
+class AddBlockingQueue {
+	BlockingQueue<Integer> i = new LinkedBlockingQueue<Integer>();
+	AddBlockingQueue() throws InterruptedException{
+		i.put(0);
+	}
+	
 
-	public void add() {
-		lock.lock();
-		i++;
-		lock.unlock();
+	public synchronized void add() throws InterruptedException {
+		i.put(i.take()+1);
 	}
 
-	public void print() {
-		System.out.println("最后结果" + i);
+	public void print() throws InterruptedException {
+		System.out.println("最后结果" + i.take());
 	}
 }
 
-public class ThreadSyncReentrantLock {
+public class ThreadSyncBlockingQueue {
 
 	public static boolean isDone(List<Thread> list) {
 		int i = 0;
@@ -45,18 +46,22 @@ public class ThreadSyncReentrantLock {
 		}
 	}
 
-	public static void main(String[] args) {
-		AddNumReentrantLock addnum = new AddNumReentrantLock();
+	public static void main(String[] args) throws InterruptedException {
+		AddBlockingQueue addnum = new AddBlockingQueue();
 		Runnable r = new Runnable() {
 			@Override
 			public void run() {
-				addnum.add();
+				try {
+					addnum.add();
+				} catch (InterruptedException e) {
+					// TODO Auto-generated catch block
+					e.printStackTrace();
+				}
 			}
 		};
 		List<Thread> list = new ArrayList<Thread>();
 		for (int i = 0; i < 10000; i++) {
 			Thread t = new Thread(r);
-
 			t.start();
 			list.add(t);
 		}
