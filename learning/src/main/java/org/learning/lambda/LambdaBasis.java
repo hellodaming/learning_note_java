@@ -1,7 +1,7 @@
 package org.learning.lambda;
 
 //functional interface（函数式接口）: 仅制定了一个抽象方法的借口
-
+@FunctionalInterface  //指明该接口类型声明是根据 Java 语言规范定义的函数式接口
 interface FuncInterface {
 	int method(); // 隐式的抽象方法，可以用abstract修饰但也可以不用
 }
@@ -30,10 +30,21 @@ public class LambdaBasis {
 		// 当通过目标调用该方法时，就会执行lambda表达式。因此，lambda表达式提供了一种将代码片段转换为对象的方法。
 		fi = () -> 5; // 将一个lambda表达式赋值给该接口引用，注意：函数式接口定义的抽象方法的类型为int，这和lambda表达式的类型兼容
 		System.out.println(fi.method()); // 输出5
+		
+		// 等价于上面的两行代码
+		FuncInterface fi2 = new FuncInterface(){
+			@Override
+			public int method() {
+				return 5;
+			}
+			
+		};
+		System.out.println(fi2.method()); // 输出5
 
+		
 		// funcInterfaceParam fip = (int value1, int value2, int value3) ->
 		// (value1 + value2 + value3);
-		// 跟上面的语句作用一样， 可以从上下文推断类型
+		// 跟上面注释的语句作用一样。lambda可以从上下文推断类型，所以可以不写类型
 		FuncInterfaceParam fip = (value1, value2, value3) -> (value1 + value2 + value3);
 		System.out.println(fip.method(1, 3, 5)); // 输出累加的结果9
 
