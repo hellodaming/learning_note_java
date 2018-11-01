@@ -109,6 +109,7 @@ public class LambdaBasis {
 			System.out.println("捕获lambda表达式产生的异常");
 		}
 		
+		// lambda处理数组
 		FuncInterfaceArray fia = (array)-> {
 			for(int i = 0; i<array.length; i++){
 				array[i] = Math.abs(array[i]); 
@@ -116,9 +117,40 @@ public class LambdaBasis {
 		};
 		int[] a  = {-1,-2,-3,-4};
 		fia.method(a); // 利用lambda把数组转为正数
+		
 		for(int i = 0; i<a.length; i++){
 			System.out.println(a[i]);
 		}
+		
+		// lambda建立线程，Runnable就是一个函数式编程接口，可以直接用于lambda
+		// 创建线程0：原始方法
+		Runnable r = new Runnable() {
+			@Override
+			public void run() {
+				System.out.println("create thread0");
+			}
+		};
+		Thread t0 = new Thread(r);
+		t0.start();
+		
+		// 创建线程1：匿名内部类
+		Thread t1 = new Thread(new Runnable() {			
+			@Override
+			public void run() {
+				System.out.println("create thread1");
+			}
+		});
+		t1.start();
+		
+		// 创建线程2：lambda
+		Runnable r2 = ()->{System.out.println("create thread2");};
+		Thread t2 = new Thread(r2);
+		t2.start();
+		
+		// 创建线程3：lambda
+		Thread t3  = new Thread(()->{System.out.println("create thread3");});
+		t3.start();
+		
 		
 
 	}
