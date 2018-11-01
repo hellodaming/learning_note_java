@@ -20,6 +20,10 @@ interface FuncInterfaceException {
 	int method(String v) throws InterruptedException; // 抛出InterruptedException异常
 }
 
+interface FuncInterfaceArray {
+	void method(int[] v); // 传入int数组
+}
+
 public class LambdaBasis {
 
 	public static void main(String[] args) {
@@ -105,6 +109,16 @@ public class LambdaBasis {
 			System.out.println("捕获lambda表达式产生的异常");
 		}
 		
+		FuncInterfaceArray fia = (array)-> {
+			for(int i = 0; i<array.length; i++){
+				array[i] = Math.abs(array[i]); 
+			}
+		};
+		int[] a  = {-1,-2,-3,-4};
+		fia.method(a); // 利用lambda把数组转为正数
+		for(int i = 0; i<a.length; i++){
+			System.out.println(a[i]);
+		}
 		
 
 	}
