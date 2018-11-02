@@ -1,5 +1,8 @@
 package org.learning.lambda;
 
+import java.util.Arrays;
+import java.util.Comparator;
+
 //functional interface（函数式接口）: 仅制定了一个抽象方法的借口
 @FunctionalInterface  //指明该接口类型声明是根据 Java 语言规范定义的函数式接口
 interface FuncInterface {
@@ -20,25 +23,29 @@ interface FuncInterfaceException {
 	int method(String v) throws InterruptedException; // 抛出InterruptedException异常
 }
 
+interface FuncInterfaceArray {
+	void method(int[] v); // 传入int数组
+}
+
 public class LambdaBasis {
 
 	public static void main(String[] args) {
 
-		FuncInterface fi; // 声明对函数式接口funcInterface的一个引用
-		// lambda表达式不是独立执行的，而是构成一个函数式接口定义的抽象方法的实现，函数式接口定义了它的目标类型
-		// 当目标类型类型上下文出现lambda表达式时，会自动创建实现了函数式接口的一个类的实例，函数式接口的声明的抽象方法的行为由lambda表达式定义。
-		// 当通过目标调用该方法时，就会执行lambda表达式。因此，lambda表达式提供了一种将代码片段转换为对象的方法。
-		fi = () -> 5; // 将一个lambda表达式赋值给该接口引用，注意：函数式接口定义的抽象方法的类型为int，这和lambda表达式的类型兼容
-		System.out.println(fi.method()); // 输出5
-		
-		// 等价于上面的两行代码
-		FuncInterface fi2 = new FuncInterface(){
+		// 实现接口方法
+		FuncInterface fi = new FuncInterface(){
 			@Override
 			public int method() {
 				return 5;
 			}
 			
 		};
+		System.out.println(fi.method()); // 输出5
+		
+		FuncInterface fi2; // 声明对函数式接口funcInterface的一个引用
+		// lambda表达式不是独立执行的，而是构成一个函数式接口定义的抽象方法的实现，函数式接口定义了它的目标类型
+		// 当目标类型类型上下文出现lambda表达式时，会自动创建实现了函数式接口的一个类的实例，函数式接口的声明的抽象方法的行为由lambda表达式定义。
+		// 当通过目标调用该方法时，就会执行lambda表达式。因此，lambda表达式提供了一种将代码片段转换为对象的方法。
+		fi2 = () -> 5; // 将一个lambda表达式赋值给该接口引用，注意：函数式接口定义的抽象方法的类型为int，这和lambda表达式的类型兼容
 		System.out.println(fi2.method()); // 输出5
 
 		
@@ -105,7 +112,72 @@ public class LambdaBasis {
 			System.out.println("捕获lambda表达式产生的异常");
 		}
 		
+		// lambda处理数组
+		FuncInterfaceArray fia = (array)-> {
+			for(int i = 0; i<array.length; i++){
+				array[i] = Math.abs(array[i]); 
+			}
+		};
+		int[] a  = {-1,-2,-3,-4};
+		fia.method(a); // 利用lambda把数组转为正数
 		
+		for(int i = 0; i<a.length; i++){
+			System.out.println(a[i]);
+		}
+		
+		
+		// lambda建立线程，Runnable就是一个函数式编程接口，可以直接用于lambda
+		// 创建线程0：原始方法
+		Runnable r = new Runnable() {
+			@Override
+			public void run() {
+				System.out.println("create thread0");
+			}
+		};
+		Thread t0 = new Thread(r);
+		t0.start();
+		
+		// 创建线程1：匿名内部类
+		Thread t1 = new Thread(new Runnable() {			
+			@Override
+			public void run() {
+				System.out.println("create thread1");
+			}
+		});
+		t1.start();
+		
+		// 创建线程2：lambda
+		Runnable r2 = ()->{System.out.println("create thread2");};
+		Thread t2 = new Thread(r2);
+		t2.start();
+		
+		// 创建线程3：lambda
+		Thread t3  = new Thread(()->{System.out.println("create thread3");});
+		t3.start();
+		
+		
+		// String排序
+		String[] str = {"A1","B3","A4","B2"};
+		Arrays.sort(str, new Comparator<String>(){
+			//从前往后进行排序
+			@Override
+			public int compare(String o1, String o2) {
+				return new StringBuffer(o1).reverse().toString().compareTo(new StringBuffer(o2).reverse().toString());
+			}});
+		for(String s : str){
+			System.out.println(s);
+		}
+		
+		String[] str2 = {"A1","B3","A4","B2"};
+		
+		// lambda 用法
+		Comparator<String> sort = (String s1, String s2) -> {
+			return new StringBuffer(s1).reverse().toString().compareTo(new StringBuffer(s2).reverse().toString());
+		};  
+		Arrays.sort(str2, sort); 
+		for(String s : str2){
+			System.out.println(s);
+		}
 
 	}
 
