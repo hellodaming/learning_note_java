@@ -50,6 +50,13 @@ public class SomeInterface {
 		boolean b2 = pre.test(1);
 		System.out.printf("输出PredicateDemo的结果2：%b \n", b2);
 		
+		Predicate<Integer> pre2 = x -> x<5;
+		System.out.printf("输出PredicateDemo and的结果：%b \n", pre.and(pre2).test(6));
+		System.out.printf("输出PredicateDemo or的结果：%b \n", pre.or(pre2).test(6));
+		System.out.printf("输出PredicateDemo negate的结果：%b \n", pre.negate().test(4));
+		System.out.printf("输出PredicateDemo isEqual的结果1：%b \n", Predicate.isEqual("4").test(4));
+		System.out.printf("输出PredicateDemo isEqual的结果2：%b \n", Predicate.isEqual("4").test("4"));
+		
 	}
 	
 	// 供给型函数式接口Supplier<T> 无参数，返回一个结果。
