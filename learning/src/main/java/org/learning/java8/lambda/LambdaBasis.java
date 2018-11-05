@@ -1,4 +1,4 @@
-package org.learning.lambda;
+package org.learning.java8.lambda;
 
 import java.util.Arrays;
 import java.util.Comparator;
@@ -189,6 +189,9 @@ public class LambdaBasis {
 		    int result = e1.compareTo( e2 );
 		    return result;
 		} );
+		
+		
+		
 	}
 
 }
