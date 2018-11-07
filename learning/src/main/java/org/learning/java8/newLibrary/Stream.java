@@ -1,4 +1,4 @@
-package org.learning.java8.NewLibrary;
+package org.learning.java8.newLibrary;
 
 public class Stream {
 
