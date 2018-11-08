@@ -12,13 +12,17 @@ import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.Arrays;
 import java.util.List;
+import java.util.Optional;
 import java.util.Random;
+import java.util.Spliterator;
 import java.util.function.Function;
 import java.util.function.Supplier;
+import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 import java.util.stream.Stream;
 import java.util.stream.StreamSupport;
 
+//参考https://colobu.com/2016/03/02/Java-Stream/#%E4%BB%8B%E7%BB%8D
 public class StreamDemo {
 
 	public void createStream() {
@@ -61,12 +65,35 @@ public class StreamDemo {
 			e.printStackTrace();
 		}
 
+		// 使用StreamSupport，它提供了将Spliterator转换成流的方法
+		Spliterator<String> myParallelSpliterator = l.spliterator();
+		Stream<String> s10 = StreamSupport.stream(myParallelSpliterator.trySplit(), true);
+
+		// 还有其他很多方法……
+	}
+
+	public void useStream() {
+		Stream<String> s = Arrays.asList("0", "1", "2", "3", "4", "0").stream();
+		
+		//distinct filter reduce
+		Optional<String> result = s.distinct().filter(x -> x.compareTo("3") < 0).reduce((x, y) -> x + " " + y);
+		System.out.println(result.get());
+		
+		String str = "Java 8 is a revolutionary release of the world’s #1 development platform. It includes a huge upgrade to the Java programming model and a coordinated evolution of the JVM, Java language, and libraries. Java 8 includes features for productivity, ease of use, improved polyglot programming, security and improved performance. Welcome to the latest iteration of the largest, open, standards-based, community-driven platform.";
+		List<String> l= Arrays.stream(str.split("[.]")).flatMap(line -> Arrays.stream(line.split(" "))).map(x->{
+			if(x.endsWith(".")||x.endsWith(",")){
+				return x.substring(0, x.length()-1).trim();
+			}
+			else{
+				return x.trim();
+			}}).distinct().sorted().collect(Collectors.toList());
+		l.forEach(x -> System.out.print(x+" "));
 	}
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		Supplier<StreamDemo> demo = StreamDemo::new;
 		demo.get().createStream();
+		demo.get().useStream();
 	}
 
 }
