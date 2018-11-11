@@ -73,21 +73,31 @@ public class StreamDemo {
 	}
 
 	public void useStream() {
+
 		Stream<String> s = Arrays.asList("0", "1", "2", "3", "4", "0").stream();
-		
-		//distinct filter reduce
+
+		// distinct filter reduce
 		Optional<String> result = s.distinct().filter(x -> x.compareTo("3") < 0).reduce((x, y) -> x + " " + y);
 		System.out.println(result.get());
-		
+
 		String str = "Java 8 is a revolutionary release of the world’s #1 development platform. It includes a huge upgrade to the Java programming model and a coordinated evolution of the JVM, Java language, and libraries. Java 8 includes features for productivity, ease of use, improved polyglot programming, security and improved performance. Welcome to the latest iteration of the largest, open, standards-based, community-driven platform.";
-		List<String> l= Arrays.stream(str.split("[.]")).flatMap(line -> Arrays.stream(line.split(" "))).map(x->{
-			if(x.endsWith(".")||x.endsWith(",")){
-				return x.substring(0, x.length()-1).trim();
-			}
-			else{
-				return x.trim();
-			}}).distinct().sorted().collect(Collectors.toList());
-		l.forEach(x -> System.out.print(x+" "));
+		List<String> l = Arrays.stream(str.split("[.]")).
+				flatMap(line -> Arrays.stream(line.split(" "))).
+				map(x -> {
+					if (x.endsWith(".") || x.endsWith(",")) {
+						return x.substring(0, x.length() - 1).trim();
+					} else {
+						return x.trim();
+					}
+					}).
+				distinct().
+				sorted().
+				peek(System.out::print).
+				limit(15).
+				collect(Collectors.toList());
+		System.out.println("");
+		l.forEach(x -> System.out.print(x + " "));
+
 	}
 
 	public static void main(String[] args) {
