@@ -31,7 +31,14 @@ import java.util.stream.StreamSupport;
 //同时它提供串行和并行两种模式进行汇聚操作，并发模式能够充分利用多核处理器的优势，使用 fork/join 并行方式来拆分任务和加速处理过程。
 
 
-//流的操作类型: 1) Intermediate 惰性化的（lazy） 2) Terminal
+//流的操作类型: 1) Intermediate 惰性化的（lazy） 2) Terminal  3) short-circuiting
+//short-circuiting: 对于一个 intermediate 操作，如果它接受的是一个无限大（infinite/unbounded）的 Stream，但返回一个有限的新 Stream。
+//或者对于一个 terminal 操作，如果它接受的是一个无限大的 Stream，但能在有限的时间计算出结果。
+
+//Intermediate操作: map (mapToInt, flatMap 等)、 filter、 distinct、 sorted、 peek、 limit、 skip、 parallel、 sequential、 unordered
+//Terminal操作： forEach、 forEachOrdered、 toArray、 reduce、 collect、 min、 max、 count、 anyMatch、 allMatch、 noneMatch、 findFirst、 findAny、 iterator
+//Short-circuiting操作: anyMatch、 allMatch、 noneMatch、 findFirst、 findAny、 limit
+
 //参考https://www.ibm.com/developerworks/cn/java/j-lo-java8streamapi/index.html
 //参考https://colobu.com/2016/03/02/Java-Stream/#%E4%BB%8B%E7%BB%8D
 public class StreamDemo {
@@ -129,7 +136,7 @@ public class StreamDemo {
 		Supplier<StreamDemo> demo = StreamDemo::new;
 		demo.get().createStream();
 		demo.get().streamTransform();
-		//demo.get().useStream();
+		demo.get().useStream();
 	}
 
 }
